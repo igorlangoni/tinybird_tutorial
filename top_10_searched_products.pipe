@@ -1,0 +1,8 @@
+
+NODE search_events
+DESCRIPTION >
+    Finds the top 10 products with most searches
+SQL >
+    SELECT * FROM shopping_data WHERE event == 'search'
+
+    
