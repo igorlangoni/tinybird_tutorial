@@ -13,4 +13,9 @@ SQL >
     GROUP BY product_id
     ORDER BY total DESC
 
-    
+NODE endpoint
+DESCRIPTION >
+    Exposes top 10 rows as an API
+SQL >
+    SELECT * FROM aggregate_by_product_id
+    LIMIT 10
