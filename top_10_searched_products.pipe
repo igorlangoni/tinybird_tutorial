@@ -17,5 +17,5 @@ NODE endpoint
 DESCRIPTION >
     Exposes top 10 rows as an API
 SQL >
-    SELECT * FROM aggregate_by_product_id
+    SELECT product_id, total FROM aggregate_by_product_id
     LIMIT 10
