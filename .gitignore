@@ -10,3 +10,5 @@ webserver_config.py
 airflow.cfg
 airflow.db
 service_account.json
+.tinyb
+tinybird_proj_venv/
